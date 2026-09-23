@@ -23,6 +23,10 @@ assignees: ''
 <!-- Ezt a részt ne szerkezd, emlékeztető céljából van itt. -->
 
 - Minden feladatot (issue) egy vagy több Pull Request-el (rövidítve PR) lehet teljesíteni
-- A feladat akkor tekinthető lezártnak, ha minden linkelt PR állapota "Merged".
+- A feladat akkor tekinthető lezártnak, ha 
+  - minden linkelt PR állapota "Merged",
+  - a "Start date" és "Target date" mezők ki vannak töltve,
+  - és hozzá van rendelve a megfelelő mérföldkőhöz.
+- A PR-eket nem rendeljük hozzá mérföldkőhöz, projekthez, stb., **csak egy issue-hoz**.
 - Egy mérföldkő akkor tekinthető bemutatásra késznek, ha minden linkelt issue állapota "In Review".
 - A bemutatás során az oktató mozgatja az issue-kat "Done" státuszba.
